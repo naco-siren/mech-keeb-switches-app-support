@@ -23,8 +23,15 @@ The App downloads switch images from our content delivery network (CDN) for disp
 The App does not integrate with any third-party analytics, advertising, or tracking services.
 
 ## Data Storage
+Switch catalog data is stored locally on your device and is never transmitted anywhere.
+Your personal data (favorites and inventory quantities) is synced across your devices using Apple's iCloud service. This data is stored in your private iCloud container, which means:
 
-All user data (favorites, inventory, preferences) is stored locally on your device using standard iOS storage mechanisms. This data is included in your device backups and can be deleted by uninstalling the App.
+- Apple manages the iCloud sync service and infrastructure.
+- The developer **cannot** see, access, or retrieve your favorites or inventory data.
+- **Only you** can access this data through your iCloud account.
+- You can delete this data by removing the app or managing your iCloud storage.
+
+This data is also included in your device backups and can be deleted by uninstalling the App.
 
 ## Children's Privacy
 
